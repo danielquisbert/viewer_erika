@@ -1,0 +1,123 @@
+html, body{
+    margin:0;
+    padding:0;
+    position:relative;
+    
+}
+
+#container-top{
+    display:flex;
+    height:25vh;
+    width:100%;
+    margin:0;
+    background:#EAF0F8;
+    position:relative;
+    padding:15px;
+    box-sizing:border-box;
+}
+#container-bottom{
+    display: flex;
+    height:75vh;
+    width:100%;
+    margin:0;
+    background:#EAF0F8;
+    position:relative;
+    padding:0 15px 15px 15px;
+    box-sizing:border-box;
+}
+
+#containerTables{
+    display: flex;
+    height:50%;
+    width:50%;
+    margin:0;
+    background:#EAF0F8;
+    position:relative;
+    padding:15px 0 15px 15px;
+    box-sizing:border-box;
+}
+
+#Graphique{
+    display: flex;
+    height:50%;
+    width:50%;
+    margin:0;
+    background:#EAF0F8;
+    position:relative;
+    padding:15px 0 15px 15px;
+    box-sizing:border-box;
+}
+
+
+  
+        
+        
+
+.box{
+    display:inline-block;
+    background:lightblue;
+    display:flex;
+    height:100%;
+    width:50%;
+    box-shadow:5px 0 15px -2px rgba(100,100,100,0.3);
+    margin:0;
+    margin-right:15px;
+    overflow:hidden;
+    border-radius:15px;
+    box-sizing:border-box;
+}
+
+.box3{
+    display:inline-block;
+    background:white;
+    display:flex;
+    height:100%;
+    width:30%;
+    box-shadow:5px 0 15px -2px rgba(100,100,100,0.3);
+    margin:0;
+    overflow:hidden;
+    border-radius:15px;
+    box-sizing:border-box;
+}
+
+.box2{
+    display:inline-block;
+    height:100%;
+    width:100%;
+    box-shadow:5px 0 15px -2px rgba(100,100,100,0.3);
+    margin:0;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+#containerTables1{
+    display:inline-block;
+    background: white;
+    display: flex;
+    height:50%;
+    width:100%;
+    box-shadow:5px 0 15px -2px rgba(100,100,100,0.3);
+    margin:0;
+    overflow:hidden;
+    border-radius:15px;
+    box-sizing:border-box;
+}
+
+
+.img-box{
+    height:100%;
+    width:35%;
+    background-image:url('image/flag.jpg');
+    background-size:cover;
+
+}
+
+.text-box{
+    height:100%;
+    width:75%;
+    padding:20px;
+}
+
+h2{
+    margin:5px 0;
+}
